@@ -326,6 +326,9 @@ call s:Col('Label', 'base0')
 call s:Col('StorageClass', 'red')
 call s:Col('Structure', 'red')
 
+" italic comments
+hi Comment gui=italic cterm=italic
+
 " Particular Languages {{{
 
 hi link cDefine Define
